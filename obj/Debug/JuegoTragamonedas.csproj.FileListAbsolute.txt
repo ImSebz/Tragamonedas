@@ -1,0 +1,9 @@
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\bin\Debug\JuegoTragamonedas.exe.config
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\bin\Debug\JuegoTragamonedas.exe
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\bin\Debug\JuegoTragamonedas.pdb
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\obj\Debug\JuegoTragamonedas.csprojAssemblyReference.cache
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\obj\Debug\JuegoTragamonedas.MainJuego.resources
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\obj\Debug\JuegoTragamonedas.Properties.Resources.resources
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\obj\Debug\JuegoTragamonedas.csproj.GenerateResource.cache
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\obj\Debug\JuegoTragamonedas.exe
+C:\Users\Sebz\Desktop\Tragamonedas\JuegoTragamonedas\obj\Debug\JuegoTragamonedas.pdb

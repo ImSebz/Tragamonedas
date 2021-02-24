@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B2A813B-F0D0-40A2-8500-011F694F89E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JuegoTragamonedas</RootNamespace>
+    <AssemblyName>JuegoTragamonedas</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainJuego.Designer.cs">
+      <DependentUpon>MainJuego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainJuego.resx">
+      <DependentUpon>MainJuego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tragamonedas Plantilla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tragamonedas Plantilla1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tragamonedas Plantilla2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop Inver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traga2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traga3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traga31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traga4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casino completo sin botones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casino completo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop Blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop Negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm9.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
